@@ -708,6 +708,13 @@ h2 {
     font-size: 22px;
     line-height: 1.4em;
 }
+ /*test*/
+h2.mg-md.text-center {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333!important;
+}
 
 h3 {
     font-size: 15px;
