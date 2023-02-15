@@ -839,6 +839,9 @@ h4 {
 }
 
 @media (max-width: 1024px) {
+    p{
+        font-size: 12px;
+    }
     .bloc {
         padding-left: 20px;
         padding-right: 20px;
