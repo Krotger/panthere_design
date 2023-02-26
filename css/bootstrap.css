@@ -1436,7 +1436,6 @@ img {
 .img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
-    display: block;
     max-width: 100%;
     height: auto
 }
@@ -2486,9 +2485,6 @@ pre code {
     .col-md-9 {
         width: 75%
     }
-    .col-md-8 {
-        width: 66.66666667%
-    }
     .col-md-7 {
         width: 58.33333333%
     }
@@ -2617,9 +2613,6 @@ pre code {
     }
     .col-md-offset-3 {
         margin-left: 25%
-    }
-    .col-md-offset-2 {
-        margin-left: 16.66666667%
     }
     .col-md-offset-1 {
         margin-left: 8.33333333%

@@ -731,7 +731,7 @@ h3 {
 
 .med-width-whitespace {
     max-width: 800px;
-    margin: auto auto auto auto;
+    margin: 15px auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
 
@@ -838,6 +838,26 @@ h4 {
     background-image: url("img/image-de-presentation.webp");
 }
 
+.text-alt{
+    font-size: 20px;
+    margin:auto;
+    width: 60%;
+    line-height: initial;
+}
+.italic{
+    font-style: italic;
+}
+.background-modif{
+    background-color: rgba(0, 0, 0, 60%);
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+}
+.background-white{
+    color: white!important;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -899,6 +919,9 @@ h4 {
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
+    }
+    .text-alt{
+        width: 80%;
     }
 }
 
@@ -1057,5 +1080,8 @@ h4 {
     }
     .bottom-list li{
         height: 48px;
+    }
+    .text-alt{
+        width: 90%;
     }
 }
