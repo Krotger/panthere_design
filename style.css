@@ -584,6 +584,7 @@ a[data-lightbox]:hover img {
     left: 15px;
     right: 15px;
     bottom: 5px;
+    text-align: center;
 }
 
 .close-lightbox {
@@ -631,6 +632,9 @@ a[data-lightbox]:hover img {
 
 .snapshot-lb .modal-body {
     padding-bottom: 45px;
+}
+.modal-body{
+    display: flex;
 }
 
 .snapshot-lb .lightbox-caption {
