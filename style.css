@@ -358,11 +358,6 @@ a:hover {
     z-index: 2;
 }
 
-.bottom-title-list{
-    text-align: center;
-    margin-bottom: 20px;
-}
-
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -1072,9 +1067,6 @@ h4 {
     }
     .bloc-mob-center-text {
         text-align: center;
-    }
-    .bottom-list li{
-        height: 35px;
     }
     .text-alt{
         width: 90%;
